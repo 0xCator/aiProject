@@ -70,7 +70,7 @@ class Ui(QtWidgets.QMainWindow):
         self.importFile.clicked.connect(self.getFile)
 
         self.ResultPage = self.findChild(QtWidgets.QWidget, 'resultsPage')
-        self.tabWidget.removeTab(2)
+        self.tabWidget.removeTab(1)
 
         self.statusBar.showMessage('Ready')
 
@@ -96,7 +96,7 @@ class Ui(QtWidgets.QMainWindow):
         self.tabWidget.addTab(self.ResultPage, 'Results')
         for i in range(5):
             self.resultTable.setItem(i, 1, QtWidgets.QTableWidgetItem(f'{smells[i]}'))
-        self.tabWidget.setCurrentIndex(2)
+        self.tabWidget.setCurrentIndex(1)
         self.statusBar.showMessage('Done')
 
 

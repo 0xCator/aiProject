@@ -63,27 +63,6 @@
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="compPage">
-     <attribute name="title">
-      <string>Comparison</string>
-     </attribute>
-     <widget class="QLabel" name="compImage">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>30</y>
-        <width>751</width>
-        <height>381</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Image goes here</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-    </widget>
     <widget class="QWidget" name="resultsPage">
      <attribute name="title">
       <string>Results</string>
